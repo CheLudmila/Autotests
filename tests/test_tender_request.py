@@ -5,8 +5,8 @@ from datetime import datetime
 
 @pytest.fixture(scope="session")
 def tender_data():
-with open("requests/tender_request.json", encoding="utf-8") as f:
-return json.load(f)
+    with open("requests/tender_request.json", encoding="utf-8") as f:
+        return json.load(f)
 
 
 
