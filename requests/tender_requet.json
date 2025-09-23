@@ -1,0 +1,64 @@
+{
+},
+"isPriority": true
+}
+],
+"isPartialBiddingAllowed": false,
+"Cpv": {
+"id": 231,
+"code": "09000000-3",
+"description": "Нафтопродукти, паливо, електроенергія та інші джерела енергії",
+"hasChildren": true,
+"isOpen": false,
+"rank": 2,
+"numberOfChildren": 3
+},
+"AdditionalCpvs": [
+{
+"id": 325,
+"code": "14000000-1",
+"description": "Гірнича продукція, неблагородні метали та супутня продукція",
+"hasChildren": true,
+"isOpen": false,
+"rank": 2,
+"numberOfChildren": 8
+},
+{
+"id": 473,
+"code": "15000000-8",
+"description": "Продукти харчування, напої, тютюн та супутня продукція",
+"hasChildren": true,
+"isOpen": false,
+"rank": 2,
+"numberOfChildren": 9
+},
+{
+"id": 950,
+"code": "16000000-5",
+"description": "Сільськогосподарська техніка",
+"hasChildren": true,
+"isOpen": false,
+"rank": 2,
+"numberOfChildren": 7
+}
+],
+"documents": []
+}
+],
+"creatorOrganization": {
+"id": 118,
+"organizationId": 118,
+"value": "Тест Тест"
+},
+"edocInitiator": {
+"id": 179,
+"value": "Діхтяр Віталій"
+},
+"edocExpert": {
+"id": 179,
+"value": "Діхтяр Віталій"
+},
+"isNeedDuplicateDocs": false,
+"isTemplate": false,
+"documents": []
+}
