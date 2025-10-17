@@ -9,7 +9,7 @@ from config import BASE_URL, EMAIL, PASSWORD
 @pytest.fixture(scope="session")
 def browser():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # headed mode
+        browser = p.chromium.launch(headless=True)  # headed mode
         yield browser
         browser.close()
 
