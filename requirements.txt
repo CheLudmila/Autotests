@@ -1,3 +1,16 @@
-pytest
-pytest-playwright
-playwright
+# Основні тестові фреймворки
+pytest==8.3.3
+pytest-playwright==0.5.7
+playwright==1.48.0
+
+# Робота з API
+requests==2.32.3
+
+# Звіти
+allure-pytest==2.13.5
+
+# Робота з .env файлами (якщо ти зберігаєш логіни/паролі окремо)
+python-dotenv==1.0.1
+
+# JSON валідація / обробка (якщо треба)
+jsonschema==4.23.0
